@@ -1,0 +1,121 @@
+@import "null.css";
+/* @import url(https://fonts.googleapis.com/css?family=Commissioner:regular,700,900&display=swap); */
+/* &display=swap */
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,italic,500,500italic,700,700italic&display=swap);
+
+@font-face {
+  font-family: "Wremena";
+  src: url("../fonts/Wremena-Bold.woff2") format("woff2"), url("../fonts/Wremena-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Wremena";
+  src: url("../fonts/Wremena.woff2") format("woff2"), url("../fonts/Wremena.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Wremena";
+  src: url("../fonts/Wremena-Light.woff2") format("woff2"), url("../fonts/Wremena-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  width: 1000px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.name {
+  margin-bottom: 36px;
+  color: #ff0000;
+  font-family: "Wremena";
+  font-weight: 700;
+  font-size: 65px;
+  text-align: center;
+}
+
+.info-name {
+  margin-bottom: 20px;
+  color: #008000;
+  font-size: 36px;
+  text-shadow: 10px -10px 20px #008000;
+  border-bottom: 3px double #008000;
+}
+
+.text-original {
+  padding: 20px;
+  height: 200px;
+  overflow: auto;
+  background-color: rgba(185, 175, 143, 0.089);
+}
+
+.text,
+.text-original {
+  margin-bottom: 36px;
+  color: #808080;
+  line-height: 1.5;
+  text-indent: 25px;
+}
+
+span {
+  color: #0000ff;
+  border-bottom: 2px dotted #800080;
+}
+
+.defenition span {
+  color: #800080;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.text-first {
+  margin-bottom: 20px;
+}
+
+.paragraph.main-info {
+  color: #a52a2a;
+  font-weight: 700;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  border: 3px double #a52a2a;
+}
+
+.paragraph,
+.item {
+  color: #000000;
+}
+
+.list {
+  padding-left: 24px;
+  margin-bottom: 20px;
+}
+
+.item {
+  font-weight: 500;
+  font-style: italic;
+}
+
+#punkt {
+  color: #036810;
+  font-family: "Wremena";
+  font-weight: 400;
+  border: 3px dotted #036810;
+}
+
+.image {
+  margin-bottom: 20px;
+}
